@@ -17,11 +17,11 @@ def request_llm(user_message):
         messages=[
             {
                 "role": "system",
-                "content": Sensitive.prompt_1,
+                "content": Sensitive.prompt_3,
             },
             {
                 "role": "system",
-                "content": Sensitive.prompt_2,
+                "content": Sensitive.prompt_4,
             },
             {
                 "role": "user",
